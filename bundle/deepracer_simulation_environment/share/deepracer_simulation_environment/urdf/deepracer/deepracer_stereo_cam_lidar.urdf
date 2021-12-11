@@ -582,7 +582,7 @@
       xyz="0 0 0" />
   </joint>
 
-    <joint
+  <joint
     name="car_imu_joint"
     type="fixed">
     <origin

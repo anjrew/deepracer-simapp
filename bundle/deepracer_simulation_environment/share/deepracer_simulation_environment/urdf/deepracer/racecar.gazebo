@@ -191,6 +191,7 @@
   </gazebo>
 </xacro:if>
 
+<xacro:if value="$(arg include_imu_sensor)">
   <gazebo reference="imu_link">
     <gravity>true</gravity>
     <sensor name="imu_sensor" type="imu">
@@ -211,5 +212,5 @@
       <pose>0 0 0 0 0 0</pose>
     </sensor>
   </gazebo>
-  
+</xacro:if>  
 </robot>
