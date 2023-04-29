@@ -19,7 +19,7 @@ from markov.boto.s3.constants import (MODEL_METADATA_S3_POSTFIX,
                                       TRAINING_MANDATORY_YAML_KEY,
                                       EVAL_MANDATORY_YAML_KEY,
                                       TOUR_MANDATORY_YAML_KEY,
-                                      VIRUTAL_EVENT_MANDATORY_YAML_KEY,
+                                      VIRUTUAL_EVENT_MANDATORY_YAML_KEY,
                                       F1_SHELL_USERS_LIST,
                                       F1_RACE_TYPE)
 from markov.rollout_constants import CarColorType
@@ -69,7 +69,7 @@ class YamlFile():
             self._model_s3_prefix_yaml_key = YamlKey.MODEL_S3_PREFIX_YAML_KEY.value
             self._mandatory_yaml_key = EVAL_MANDATORY_YAML_KEY
         elif self._agent_type == AgentType.VIRTUAL_EVENT.value:
-            self._mandatory_yaml_key = VIRUTAL_EVENT_MANDATORY_YAML_KEY
+            self._mandatory_yaml_key = VIRUTUAL_EVENT_MANDATORY_YAML_KEY
         else:
             log_and_exit("Unknown agent type in launch file: {}".format(self._agent_type),
                          SIMAPP_SIMULATION_WORKER_EXCEPTION,

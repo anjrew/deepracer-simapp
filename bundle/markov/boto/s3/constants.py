@@ -181,7 +181,7 @@ TRAINING_MANDATORY_YAML_KEY = [YamlKey.SAGEMAKER_SHARED_S3_BUCKET_YAML_KEY.value
                                YamlKey.BODY_SHELL_TYPE_YAML_KEY.value,
                                YamlKey.CAR_COLOR_YAML_KEY.value]
 
-VIRUTAL_EVENT_MANDATORY_YAML_KEY = [YamlKey.SQS_QUEUE_URL_YAML_KEY.value,
+VIRUTUAL_EVENT_MANDATORY_YAML_KEY = [YamlKey.SQS_QUEUE_URL_YAML_KEY.value,
                                     YamlKey.KINESIS_WEBRTC_SIGNALING_CHANNEL_NAME.value]
 
 #############################
